@@ -1,0 +1,499 @@
+[
+	{
+		"subject": "English",
+		"credits": 40,
+		"years": 4,
+		"courses": [
+		{
+			"name": "Literature & Writing",
+			"subject": "English",
+			"grades": "9",
+			"rec": "none",
+			"uc": "b"
+		},
+		{
+			"name": "World Literature & Writing",
+			"subject": "English",
+			"grades": "10",
+			"rec": "none",
+			"uc": "b"
+		},
+		{
+			"name": "American Literature & Writing",
+			"subject": "English",
+			"grades": "11",
+			"rec": "none",
+			"uc": "b"
+		},
+		{
+			"name": "American Literature & Writing Honors",
+			"subject": "English",
+			"grades": "11",
+			"rec": "none",
+			"uc": "b"
+		},
+		{
+			"name": "British Literature & Writing",
+			"subject": "English",
+			"grades": "11-12",
+			"rec": "none",
+			"uc": "b"
+		},
+		{
+			"name": "Mythology/Folklore & Writing",
+			"subject": "English",
+			"grades": "11-12",
+			"rec": "none",
+			"uc": "b"
+		},
+		{
+			"name": "AP Literature & Composition",
+			"subject": "English",
+			"grades": "12",
+			"rec": "none",
+			"uc": "b"
+		},
+		{
+			"name": "American Studies",
+			"subject": "English",
+			"grades": "11-12",
+			"rec": "none",
+			"uc": "b"
+		}
+		]
+	},
+	{
+		"subject": "Social Science",
+		"credits": 30,
+		"years": 2,
+		"courses": [
+		{
+			"name": "World History",
+			"subject": "Social Science",
+			"grades": "10",
+			"rec": "none",
+			"uc": "a"
+		},
+		{
+			"name": "US History",
+			"subject": "Social Science",
+			"grades": "11",
+			"rec": "none",
+			"uc": "a"
+		},
+		{
+			"name": "AP US History",
+			"subject": "Social Science",
+			"grades": "11",
+			"rec": "none",
+			"uc": "a"
+		},
+		{
+			"name": "Economics",
+			"subject": "Social Science",
+			"grades": "12",
+			"rec": "none",
+			"uc": "g"
+		},
+		{
+			"name": "US Government",
+			"subject": "Social Science",
+			"grades": "12",
+			"rec": "none",
+			"uc": "a"
+		},
+		{
+			"name": "AP US Government & Politics",
+			"subject": "Social Science",
+			"grades": "12",
+			"rec": "none",
+			"uc": "a"
+		},
+		{
+			"name": "AP Microeconomics",
+			"subject": "Social Science",
+			"grades": "12",
+			"rec": "none",
+			"uc": "g"
+		}
+		]	
+	},
+	{
+		"subject": "Mathematics",
+		"credits": 20,
+		"years": 3,
+		"courses": [
+		{
+			"name": "Algebra 1",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "none",
+			"uc": "c"
+		},
+		{
+			"name": "Geometry",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "C or better in Algebra 1",
+			"uc": "c"
+		},
+		{
+			"name": "Geometry Enriched",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "B or better in Algebra 1",
+			"uc": "c"
+		},
+		{
+			"name": "Algebra 2",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "C or better in Geometry with teacher recommendation",
+			"uc": "c"
+		},
+		{
+			"name": "Algebra 2/Trigonometry",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "B or better in Geometry (Enriched) with teacher recommendation",
+			"uc": "c"
+		},
+		{
+			"name": "Math Analysis",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "B or better in Algebra 2 with teacher recommendation",
+			"uc": "c"
+		},
+		{
+			"name": "Pre-Calculus Honors",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "B or better in Algebra 2/Trigonometry or Math Analysis",
+			"uc": "c"
+		},
+		{
+			"name": "Applied Math", 
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "Successful completion of Algebra 2 or Algebra 2/Trig with teacher recommendation",
+			"uc": "c"
+		},
+		{
+			"name": "AP Calculus AB",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "B or better in Math Analysis or C or better in Pre-Calculus with teacher recommendation",
+			"uc": "c"
+		},
+		{
+			"name": "AP Calculus BC",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "B or better in Pre-Calculus H with teacher recommendation",
+			"uc": "c"
+		},
+		{
+			"name": "AP Statistics",
+			"subject": "Math",
+			"grades": "9-12",
+			"rec": "C or better in Algebra 2",
+			"uc": "c"
+		}
+		]
+	},
+	{
+		"subject": "Science",
+		"credits": 20,
+		"years": 2,
+		"courses": [
+		{
+			"name": "Biology",
+			"subject": "Science",
+			"grades": "9-12",
+			"rec": "None", 
+			"uc": "d"
+		},
+		{
+			"name": "AP Biology",
+			"subject": "Science",
+			"grades": "11-12",
+			"rec": "Biology and Chemistry", 
+			"uc": "d"
+		},
+		{
+			"name": "Chemistry",
+			"subject": "Science",
+			"grades": "10-12",
+			"rec": "Biology and Algebra 1", 
+			"uc": "d"
+		},
+		{
+			"name": "Chemistry Honors",
+			"subject": "Science",
+			"grades": "10-12",
+			"rec": "Biology and Geometry", 
+			"uc": "d"
+		},
+		{
+			"name": "AP Chemistry",
+			"subject": "Science",
+			"grades": "11-12",
+			"rec": "Algebra 2 and Chemistry", 
+			"uc": "d"
+		},
+		{
+			"name": "Physics",
+			"subject": "Science",
+			"grades": "10-12",
+			"rec": "Biology and Algebra 1", 
+			"uc": "d"
+		},
+		{
+			"name": "Physics Honors",
+			"subject": "Science",
+			"grades": "10-12",
+			"rec": "Biology and Algebra 2", 
+			"uc": "d"
+		},
+		{
+			"name": "AP Physics C: Mechanics",
+			"subject": "Science",
+			"grades": "11-12",
+			"rec": "Pre-Calculus Honors and Physics Honors", 
+			"uc": "d"
+		},
+		{
+			"name": "Physiology",
+			"subject": "Science",
+			"grades": "11-12",
+			"rec": "Biology and Chemistry", 
+			"uc": "d"
+		},
+		{
+			"name": "Environmental Science",
+			"subject": "Science",
+			"grades": "9-12",
+			"rec": "Biology", 
+			"uc": "g"
+		},
+		{
+			"name": "AP Environmental Science",
+			"subject": "Science",
+			"grades": "9-12",
+			"rec": "Biology, Chemistry, and Algebra 1", 
+			"uc": "d"
+		}
+		]
+	},
+	{
+		"subject": "PE",
+		"credits": 20,
+		"years": 0,
+		"courses": [
+		{
+			"name": "PE 9",
+			"subject": "PE",
+			"grades": "9",
+			"rec": "None",
+			"uc": "N/A"
+		},
+		{
+			"name": "PE 10-12",
+			"subject": "PE",
+			"grades": "10-12",
+			"rec": "PE 9", 
+			"uc": "N/A"
+		},
+		{
+			"name": "PE Dance",
+			"subject": "PE",
+			"grades": "10-12",
+			"rec": "PE 9", 
+			"uc": "N/A"
+		},
+		{
+			"name": "PE Total Fitness",
+			"subject": "PE",
+			"grades": "10-12",
+			"rec": "PE 9", 
+			"uc": "N/A"
+		},
+		{
+			"name": "PE Weight Training",
+			"subject": "PE",
+			"grades": "10-12",
+			"rec": "PE 9", 
+			"uc": "N/A"
+		},
+		{
+			"name": "PE 9 Band",
+			"subject": "PE",
+			"grades": "9",
+			"rec": "Approval of Music and PE Department heads", 
+			"uc": "N/A"
+		},
+		{
+			"name": "PE 10 Band",
+			"subject": "PE",
+			"grades": "10-12",
+			"rec": "Approval of Music and PE Department heads", 
+			"uc": "N/A"
+		},
+		{
+			"name": "PE Sport",
+			"subject": "PE",
+			"grades": "10-12",
+			"rec": "None", 
+			"uc": "N/A"
+		}
+		]
+	},
+	{
+		"subject": "World Language",
+		"credits": 10,
+		"years": 2,
+		"courses": [
+		{
+			"name": "Spanish 1",
+			"subject": "World Language",
+			"grades": "9-12",
+			"rec": "None",
+			"uc": "e"
+		},
+		{
+			"name": "Spanish 2",
+			"subject": "World Language",
+			"grades": "9-12",
+			"rec": "C or better in Level 1 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "Spanish 3",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 2 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "Spanish 4 Honors",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 3 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "AP Spanish Language & Culture",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 4 Honors or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "French 1",
+			"subject": "World Language",
+			"grades": "9-12",
+			"rec": "None",
+			"uc": "e"
+		},
+		{
+			"name": "French 2",
+			"subject": "World Language",
+			"grades": "9-12",
+			"rec": "C or better in Level 1 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "French 3",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 2 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "French 4 Honors",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 3 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "AP French Language & Culture",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 4 Honors or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "Chinese 1",
+			"subject": "World Language",
+			"grades": "9-12",
+			"rec": "None",
+			"uc": "e"
+		},
+		{
+			"name": "Chinese 2",
+			"subject": "World Language",
+			"grades": "9-12",
+			"rec": "C or better in Level 1 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "Chinese 3",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 2 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "Chinese 4 Honors",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 3 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "AP Chinese Language & Culture",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 4 Honors or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "Japanese 1",
+			"subject": "World Language",
+			"grades": "9-12",
+			"rec": "None",
+			"uc": "e"
+		},
+		{
+			"name": "Japanese 2",
+			"subject": "World Language",
+			"grades": "9-12",
+			"rec": "C or better in Level 1 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "Japanese 3",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 2 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "Japanese 4 Honors",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 3 or the recommendation of an instructor",
+			"uc": "e"
+		},
+		{
+			"name": "AP Japanese Language & Culture",
+			"subject": "World Language",
+			"grades": "10-12",
+			"rec": "C or better in Level 4 Honors or the recommendation of an instructor",
+			"uc": "e"
+		}
+		]
+	}
+]

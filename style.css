@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font: 10pt "Open Sans",Arial;
+	color: #222;
+}
+
+/* course list sidebar */
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	overflow: auto;
+	border-right: 1px solid #ccc;
+}
+.course-list {
+	padding: 5px;
+	list-style: none;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+.subject {
+	padding: 20px 5px 5px 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.courseItem {
+	cursor: move;
+	padding: 8px;
+	margin: 5px 0;
+	background: #f5f5f5;
+	border: 1px solid #f5f5f5;
+}
+.courseItem:hover {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 1px dashed #ccc;
+}
+
+/* main table */
+
+.container {
+	margin-left: 250px;
+	max-width: 960px;
+	padding: 50px;
+}
+.course-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+td {
+	padding: 14px 18px;
+	border: 1px solid #ddd;
+	vertical-align: middle;
+}
+.col-headers {
+	background: #f5f5f5;
+	color: #222;
+}
+.years {
+	width: 5%;
+}
+.credits {
+	width: 10%;
+}
+.unneeded {
+	color: #ddd !important;
+}
+.empty {
+	width: 17%;
+	color: #aaa;
+}
+.filled {
+	color: #222 !important;
+	font-size: 10pt;
+}
+.dragOver {
+	padding: 3px 10px;
+}
+.dragOver div {
+	padding: 7px 10px;
+	border: 1px dashed #ddd;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	font-size: 10pt;
+}
+
+/* table responsiveness */
+@media screen and (max-width: 1210px) {
+	.container {
+		padding: 30px 0;
+	}
+}
