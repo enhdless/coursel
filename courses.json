@@ -495,5 +495,355 @@
 			"uc": "e"
 		}
 		]
+	},
+	{
+		"subject": "Fine Art",
+		"credits": 10,
+		"years": 1,
+		"courses": [
+		{
+			"name": "Art 1",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "None",
+			"uc": "f"
+		},
+		{
+			"name": "Art 2",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "C or better in Art 1",
+			"uc": "f"
+		},
+		{
+			"name": "Art 3",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "C or better in Art 2",
+			"uc": "f"
+		},
+		{
+			"name": "Art 4",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "C or better in Art 3",
+			"uc": "f"
+		},
+		{
+			"name": "Photography 1",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "None",
+			"uc": "f"
+		},
+		{
+			"name": "Multimedia Design",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "None",
+			"uc": "f"
+		},
+		{
+			"name": "3D Design 1",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "None",
+			"uc": "f"
+		},
+		{
+			"name": "3D Design 2",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "C or better in 3D Design 1",
+			"uc": "f"
+		},
+		{
+			"name": "3D Design 3",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "C or better in 3D Design 2",
+			"uc": "f"
+		},
+		{
+			"name": "3D Design 4",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "C or better in 3D Design 3",
+			"uc": "f"
+		},
+		{
+			"name": "Ceramics 1",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "None",
+			"uc": "f"
+		},
+		{
+			"name": "Cermaics 2",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "C or better in Ceramics 1",
+			"uc": "f"
+		},
+		{
+			"name": "Ceramics 3",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "C or better in Ceramics 2",
+			"uc": "f"
+		},
+		{
+			"name": "Ceramics 4",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "C or better in Ceramics",
+			"uc": "f"
+		},
+		{
+			"name": "AP Studio Art: Drawing",
+			"subject": "Fine Art",
+			"grades": "12",
+			"rec": "B or better in Art 2, teacher recommendation or evaluation of student portfolio.",
+			"uc": "f"
+		},
+		{
+			"name": "B Choir",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "none",
+			"uc": "f"
+		},
+		{
+			"name": "Advanced Treble Choir",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "Audition or approval of instructor",
+			"uc": "f"
+		},
+		{
+			"name": "A Choir",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "Audition or approval of instructor",
+			"uc": "f"
+		},
+		{
+			"name": "Small Mixed Vocal Ensembles",
+			"subject": "Fine Art",
+			"grades": "11-12",
+			"rec": "Audition or approval of instructor",
+			"uc": "f"
+		},
+		{
+			"name": "Concert Band",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "Approval of instructor",
+			"uc": "f"
+		},
+		{
+			"name": "Symphonic Band",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "Audition or approval of instructor",
+			"uc": "f"
+		},
+		{
+			"name": "Wind Ensemble",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "Audition or approval of instructor",
+			"uc": "f"
+		},
+		{
+			"name": "Jazz Ensemble",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "Audition or approval of instructor",
+			"uc": "f"
+		},
+		{
+			"name": "Orchestra",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "Audition or approval of instructor",
+			"uc": "f"
+		},
+		{
+			"name": "Chamber Orchestra",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "Audition or approval of instructor",
+			"uc": "f"
+		},
+		{
+			"name": "Music Genesis",
+			"subject": "Fine Art",
+			"grades": "9-12",
+			"rec": "none",
+			"uc": "f"
+		},
+		{
+			"name": "AP Music Theory",
+			"subject": "Fine Art",
+			"grades": "10-12",
+			"rec": "Ability to read music",
+			"uc": "f"
+		},
+		{
+			"name": "Drama",
+			"subject": "Fine Art",
+			"gradies": "9-12",
+			"rec": "none",
+			"uc": "f"
+		},
+		{
+			"name": "Advanced Drama",
+			"subject": "Fine Art",
+			"gradies": "10-12",
+			"rec": "Drama",
+			"uc": "f"
+		},
+		{
+			"name": "Advanced Drama Honors",
+			"subject": "Fine Art",
+			"gradies": "10-12",
+			"rec": "Advanced Drama",
+			"uc": "f"
+		}
+		]
+	},
+	{
+		"subject": "Applied Academic",
+		"credits": 10,
+		"years": 1,
+		"courses": [
+		{
+			"name": "Principles of Business",
+			"subject": "Applied Academic",
+			"grades": "9-12",
+			"rec": "None",
+			"uc": "N/A"
+		},
+		{
+			"name": "International Business",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "Principles of Business",
+			"uc": "g"
+		},
+		{
+			"name": "Computer Applications",
+			"subject": "Applied Academic",
+			"grades": "9-12",
+			"rec": "None",
+			"uc": "N/A"
+		},
+		{
+			"name": "Accounting 1",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "None",
+			"uc": "g"
+		},
+		{
+			"name": "Accounting 2",
+			"subject": "Applied Academic",
+			"grades": "11-12",
+			"rec": "Accounting 1",
+			"uc": "N/A"
+		},
+		{
+			"name": "Law",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "none",
+			"uc": "g"
+		},
+		{
+			"name": "Economics and Virtual Enterprise",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "[none stated]",
+			"uc": "g"
+		},
+		{
+			"name": "Journalism",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "Successful completion of Writing for Publication and/or teacher recommendation",
+			"uc": "g"
+		},
+		{
+			"name": "Technical Writing (Yearbook)",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "[none stated]",
+			"uc": "N/A"
+		},
+		{
+			"name": "TV/Film/Video",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "[none stated]",
+			"uc": "N/A"
+		},
+		{
+			"name": "Culinary Food Science",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "Passing grade in Biology and Algebra 1",
+			"uc": "g"
+		},
+		{
+			"name": "Computer Programming Java",
+			"subject": "Applied Academic",
+			"grades": "9-12",
+			"rec": "Successful completion of Algebra 1 or higher math course and previous computer use with teacher recommendation",
+			"uc": "g"
+		},
+		{
+			"name": "AP Computer Science A",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "B or better in Computer Programming Java; and B or better in Algebra 2 or higher math course; and strong computer and problem solving skills; with teacher recommendation",
+			"uc": "g"
+		},
+		{
+			"name": "Automotive Technology 1",
+			"subject": "Applied Academic",
+			"grades": "9-12",
+			"rec": "[none stated]",
+			"uc": "N/A"
+		},
+		{
+			"name": "Automotive Technology 2",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "[none stated]",
+			"uc": "N/A"
+		},
+		{
+			"name": "Culinary Careers",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "Intro to Culinary Careers: Foods and Nutrition",
+			"uc": "N/A"
+		},
+		{
+			"name": "Stagecraft Tech",
+			"subject": "Applied Academic",
+			"grades": "9-12",
+			"rec": "[none stated]",
+			"uc": "N/A"
+		},
+		{
+			"name": "Administration of Justice",
+			"subject": "Applied Academic",
+			"grades": "10-12",
+			"rec": "[none stated]",
+			"uc": "N/A"
+		}
+		]
 	}
 ]

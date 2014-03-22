@@ -55,17 +55,35 @@ $(function() {
 			this.render();
 		},
 		events: {
-			'drop .dragOver': 'updateNumbers'
+			'drop .dragOver': 'incrementNumbers',
+			'click .x': 'decrementNumbers',
 		},
-		updateNumbers: function(e) {
+		incrementNumbers: function(e) {
 			if($(e.currentTarget).attr('class').split(" ")[0]!='filled') {
 				creditsCell = '.credits-' + $(e.currentTarget).data('row');
 				yearsCell = '.years-' + $(e.currentTarget).data('row');
 				$(creditsCell).data('creditsSoFar',$(creditsCell).data('creditsSoFar')+10);
 				$(yearsCell).data('yearsSoFar',$(yearsCell).data('yearsSoFar')+1);
-				$(creditsCell).html($(creditsCell).data('creditsSoFar')+' / '+$(creditsCell).data('creditsNeeded'));
-				$(yearsCell).html($(yearsCell).data('yearsSoFar')+' / '+$(yearsCell).data('yearsNeeded'));
+				this.updateNumbers(creditsCell,yearsCell);
 			}
+		},
+		decrementNumbers: function(e) {
+			creditsCell = '.credits-' + $(e.currentTarget.parentNode).data('row');
+			yearsCell = '.years-' + $(e.currentTarget.parentNode).data('row');
+			$(creditsCell).data('creditsSoFar',$(creditsCell).data('creditsSoFar')-10);
+			$(yearsCell).data('yearsSoFar',$(yearsCell).data('yearsSoFar')-1);
+			this.updateNumbers(creditsCell,yearsCell);
+			this.removeCourse(e);
+		},
+		updateNumbers: function(creditsCell,yearsCell) {
+			$(creditsCell).html($(creditsCell).data('creditsSoFar')+' / '+$(creditsCell).data('creditsNeeded'));
+			$(yearsCell).html($(yearsCell).data('yearsSoFar')+' / '+$(yearsCell).data('yearsNeeded'));
+		},
+		removeCourse: function(e) {
+			cell = e.currentTarget.parentNode;
+			$(cell).removeClass('filled');
+			$(cell).addClass('empty');
+			$(cell).html($(cell).data('subject'));
 		},
 		render: function() {
 			rowInd = 0;
@@ -78,8 +96,8 @@ $(function() {
 					needed++;
 				for(i=0;i<4;i++) {
 					cell = $('<td class="empty"><div>'+subject.get('subject')+'</div></td>');
-					cell.data("subject",subject.get('subject'));
-					cell.data("row",rowInd);
+					cell.data('subject',subject.get('subject'));
+					cell.data('row',rowInd);
 					if(i>needed || i==0 && subject.get('subject')=="Social Science") {
 						cell.addClass('unneeded');
 					}
@@ -103,7 +121,7 @@ $(function() {
 
 	var table = new CourseTable();
 
-	// binded events need to be moved to view events
+	// binded events need to be moved to CourseTable View events
 
 	var beingDragged;
 	var dropTarget;
@@ -112,7 +130,7 @@ $(function() {
 		beingDragged = this;
 	}).bind('dragend', function(e) {
 		if($(this).data('subject') == $(dropTarget).data('subject')) {
-			$(dropTarget).html($(this).html());
+			$(dropTarget).html('<span class="x"></span>'+$(this).html());
 			$(dropTarget).removeClass('empty');
 			$(dropTarget).removeClass('dragOver');
 			$(dropTarget).addClass('filled');

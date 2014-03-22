@@ -85,6 +85,7 @@ td {
 .filled {
 	color: #222 !important;
 	font-size: 10pt;
+	position: relative;
 }
 .dragOver {
 	padding: 3px 10px;
@@ -97,6 +98,19 @@ td {
 	-moz-border-radius: 10px;
 	-o-border-radius: 10px;
 	font-size: 10pt;
+}
+.x {
+	display: none;
+}
+.x:before {
+	color: red;
+	content: "x";
+}
+.filled:hover .x {
+	display: inline;
+	position: absolute;
+	top: 0;
+	right: 7px;
 }
 
 /* table responsiveness */
