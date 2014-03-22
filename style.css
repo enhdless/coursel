@@ -75,6 +75,9 @@ td {
 .credits {
 	width: 10%;
 }
+.good {
+	color: green;
+}
 .unneeded {
 	color: #ddd !important;
 }

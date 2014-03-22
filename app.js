@@ -55,11 +55,12 @@ $(function() {
 			this.render();
 		},
 		events: {
-			'drop .dragOver': 'incrementNumbers',
+			'drop td': 'incrementNumbers',
 			'click .x': 'decrementNumbers',
 		},
 		incrementNumbers: function(e) {
-			if($(e.currentTarget).attr('class').split(" ")[0]!='filled') {
+			if($(e.currentTarget).attr('class').split(" ")[0]!='filled' &&
+				$(e.currentTarget).data('subject')==$(beingDragged).data('subject')) {
 				creditsCell = '.credits-' + $(e.currentTarget).data('row');
 				yearsCell = '.years-' + $(e.currentTarget).data('row');
 				$(creditsCell).data('creditsSoFar',$(creditsCell).data('creditsSoFar')+10);
@@ -77,7 +78,15 @@ $(function() {
 		},
 		updateNumbers: function(creditsCell,yearsCell) {
 			$(creditsCell).html($(creditsCell).data('creditsSoFar')+' / '+$(creditsCell).data('creditsNeeded'));
+			if($(creditsCell).data('creditsSoFar') >= $(creditsCell).data('creditsNeeded'))
+				$(creditsCell).addClass('good');
+			else
+				$(creditsCell).removeClass('good');
 			$(yearsCell).html($(yearsCell).data('yearsSoFar')+' / '+$(yearsCell).data('yearsNeeded'));
+			if($(yearsCell).data('yearsSoFar') >= $(yearsCell).data('yearsNeeded'))
+				$(yearsCell).addClass('good');
+			else
+				$(yearsCell).removeClass('good');
 		},
 		removeCourse: function(e) {
 			cell = e.currentTarget.parentNode;
