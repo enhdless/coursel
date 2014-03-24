@@ -31,16 +31,31 @@ $(function() {
 			_.bindAll(this,'render');
 			this.render();
 		},
+		events: {
+			'click .subject': 'expandList'
+		},
+		expandList: function(e) {
+			$(e.currentTarget.nextSibling).slideToggle();
+			if($(e.currentTarget.firstChild).attr('class').split(" ")[2]=='fa-rotate-90')
+				$(e.currentTarget.firstChild).removeClass('fa-rotate-90');
+			else
+				$(e.currentTarget.firstChild).addClass('fa-rotate-90');
+		},
 		render: function() {
+			ind = 0;
 			courses.each(function(subject) {
-				$(this.el).append('<li class="subject">'+subject.get('subject')+'</li>');
+				$(this.el).append('<li class="subject"><i class="fa fa-caret-right"></i>'+subject.get('subject')+'</li>');
 				subjectCourses = new CourseList();
 				subjectCourses.add(subject.get('courses'));
+				subjectCourseList = $('<ul class="course-list courses-'+ind+'"></ul>');
 				subjectCourses.each(function(course) {
 					item = $('<li class="courseItem">'+course.get('name')+'</li>');
 					item.data('subject',subject.get('subject'));
-					$(this.el).append(item);
-				},this)
+					$(subjectCourseList).append(item);
+				},this);
+				$(this.el).append(subjectCourseList);
+				$(subjectCourseList).hide();
+				ind++;
 			},this);
 			$(this.el).find('.courseItem').prop('draggable',true);
 		}

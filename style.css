@@ -29,8 +29,11 @@ body {
 	-webkit-margin-start: 0;
 	-webkit-margin-end: 0;
 }
+.fa-caret-right {
+	margin-right: 10px;
+}
 .subject {
-	padding: 20px 5px 5px 9px;
+	padding: 20px 0 5px 15px;
 	font-weight: bold;
 	text-transform: uppercase;
 }

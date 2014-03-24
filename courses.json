@@ -3,6 +3,7 @@
 		"subject": "English",
 		"credits": 40,
 		"years": 4,
+		"uc": "b",
 		"courses": [
 		{
 			"name": "Literature & Writing",
@@ -66,6 +67,7 @@
 		"subject": "Social Science",
 		"credits": 30,
 		"years": 2,
+		"uc": "a",
 		"courses": [
 		{
 			"name": "World History",
@@ -122,6 +124,7 @@
 		"subject": "Mathematics",
 		"credits": 20,
 		"years": 3,
+		"uc": "c",
 		"courses": [
 		{
 			"name": "Algebra 1",
@@ -206,6 +209,7 @@
 		"subject": "Science",
 		"credits": 20,
 		"years": 2,
+		"uc": "d",
 		"courses": [
 		{
 			"name": "Biology",
@@ -290,6 +294,7 @@
 		"subject": "PE",
 		"credits": 20,
 		"years": 0,
+		"uc": "N/A",
 		"courses": [
 		{
 			"name": "PE 9",
@@ -353,6 +358,7 @@
 		"subject": "World Language",
 		"credits": 10,
 		"years": 2,
+		"uc": "e",
 		"courses": [
 		{
 			"name": "Spanish 1",
@@ -500,6 +506,7 @@
 		"subject": "Fine Art",
 		"credits": 10,
 		"years": 1,
+		"uc": "f",
 		"courses": [
 		{
 			"name": "Art 1",
@@ -717,6 +724,7 @@
 		"subject": "Applied Academic",
 		"credits": 10,
 		"years": 1,
+		"uc": "g",
 		"courses": [
 		{
 			"name": "Principles of Business",
