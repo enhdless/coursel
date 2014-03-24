@@ -53,7 +53,7 @@ body {
 
 .container {
 	margin-left: 250px;
-	max-width: 960px;
+	max-width: 1100px;
 	padding: 50px;
 }
 .course-table {
@@ -82,7 +82,7 @@ td {
 	color: #ddd !important;
 }
 .empty {
-	width: 17%;
+	width: 19%;
 	color: #aaa;
 }
 .filled {
@@ -119,6 +119,6 @@ td {
 /* table responsiveness */
 @media screen and (max-width: 1210px) {
 	.container {
-		padding: 30px 0;
+		padding: 50px 0;
 	}
 }

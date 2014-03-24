@@ -59,7 +59,8 @@ $(function() {
 			'click .x': 'decrementNumbers',
 		},
 		incrementNumbers: function(e) {
-			if($(e.currentTarget).attr('class').split(" ")[0]!='filled' &&
+			if($(e.currentTarget).attr('class').split(" ")[0]!='filled' && 
+				$(e.currentTarget).attr('class').split(" ")[1]!='filled' &&
 				$(e.currentTarget).data('subject')==$(beingDragged).data('subject')) {
 				creditsCell = '.credits-' + $(e.currentTarget).data('row');
 				yearsCell = '.years-' + $(e.currentTarget).data('row');
@@ -93,6 +94,9 @@ $(function() {
 			$(cell).removeClass('filled');
 			$(cell).addClass('empty');
 			$(cell).html($(cell).data('subject'));
+		},
+		markDroppable: function() {
+
 		},
 		render: function() {
 			rowInd = 0;
@@ -157,7 +161,7 @@ $(function() {
 		if($(this).data('subject') == $(beingDragged).data('subject'))
 			$(this).addClass('dragOver');
 	}).bind('dragleave', function(e) {
-		$(this).removeClass('dragOver');
+		$(this). removeClass('dragOver');
 	});
 
 });
