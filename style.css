@@ -33,9 +33,13 @@ body {
 	margin-right: 10px;
 }
 .subject {
-	padding: 20px 0 5px 15px;
+	padding: 15px 0 15px 15px;
 	font-weight: bold;
 	text-transform: uppercase;
+	cursor: pointer;
+}
+.subject:hover {
+	background: #f0f0f0;
 }
 .courseItem {
 	cursor: move;
@@ -98,7 +102,7 @@ td {
 }
 .dragOver div {
 	padding: 7px 10px;
-	border: 1px dashed #ddd;
+	border: 1px dashed #bbb !important;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -110,13 +114,12 @@ td {
 }
 .x:before {
 	color: red;
-	content: "x";
 }
 .filled:hover .x {
 	display: inline;
 	position: absolute;
-	top: 0;
-	right: 7px;
+	top: 5px;
+	right: 5px;
 }
 
 /* table responsiveness */

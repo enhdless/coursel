@@ -8,56 +8,56 @@
 		{
 			"name": "Literature & Writing",
 			"subject": "English",
-			"grades": "9",
+			"grades": [9],
 			"rec": "none",
 			"uc": "b"
 		},
 		{
 			"name": "World Literature & Writing",
 			"subject": "English",
-			"grades": "10",
+			"grades": [10],
 			"rec": "none",
 			"uc": "b"
 		},
 		{
 			"name": "American Literature & Writing",
 			"subject": "English",
-			"grades": "11",
+			"grades": [11],
 			"rec": "none",
 			"uc": "b"
 		},
 		{
 			"name": "American Literature & Writing Honors",
 			"subject": "English",
-			"grades": "11",
+			"grades": [11],
 			"rec": "none",
 			"uc": "b"
 		},
 		{
 			"name": "British Literature & Writing",
 			"subject": "English",
-			"grades": "11-12",
+			"grades": [11,12],
 			"rec": "none",
 			"uc": "b"
 		},
 		{
 			"name": "Mythology/Folklore & Writing",
 			"subject": "English",
-			"grades": "11-12",
+			"grades": [11,12],
 			"rec": "none",
 			"uc": "b"
 		},
 		{
 			"name": "AP Literature & Composition",
 			"subject": "English",
-			"grades": "12",
+			"grades": [12],
 			"rec": "none",
 			"uc": "b"
 		},
 		{
 			"name": "American Studies",
 			"subject": "English",
-			"grades": "11-12",
+			"grades": [11,12],
 			"rec": "none",
 			"uc": "b"
 		}
@@ -72,49 +72,49 @@
 		{
 			"name": "World History",
 			"subject": "Social Science",
-			"grades": "10",
+			"grades": [10],
 			"rec": "none",
 			"uc": "a"
 		},
 		{
 			"name": "US History",
 			"subject": "Social Science",
-			"grades": "11",
+			"grades": [11],
 			"rec": "none",
 			"uc": "a"
 		},
 		{
 			"name": "AP US History",
 			"subject": "Social Science",
-			"grades": "11",
+			"grades": [11],
 			"rec": "none",
 			"uc": "a"
 		},
 		{
 			"name": "Economics",
 			"subject": "Social Science",
-			"grades": "12",
+			"grades": [12],
 			"rec": "none",
 			"uc": "g"
 		},
 		{
 			"name": "US Government",
 			"subject": "Social Science",
-			"grades": "12",
+			"grades": [12],
 			"rec": "none",
 			"uc": "a"
 		},
 		{
 			"name": "AP US Government & Politics",
 			"subject": "Social Science",
-			"grades": "12",
+			"grades": [12],
 			"rec": "none",
 			"uc": "a"
 		},
 		{
 			"name": "AP Microeconomics",
 			"subject": "Social Science",
-			"grades": "12",
+			"grades": [12],
 			"rec": "none",
 			"uc": "g"
 		}
@@ -129,77 +129,77 @@
 		{
 			"name": "Algebra 1",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "none",
 			"uc": "c"
 		},
 		{
 			"name": "Geometry",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "C or better in Algebra 1",
 			"uc": "c"
 		},
 		{
 			"name": "Geometry Enriched",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "B or better in Algebra 1",
 			"uc": "c"
 		},
 		{
 			"name": "Algebra 2",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "C or better in Geometry with teacher recommendation",
 			"uc": "c"
 		},
 		{
 			"name": "Algebra 2/Trigonometry",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "B or better in Geometry (Enriched) with teacher recommendation",
 			"uc": "c"
 		},
 		{
 			"name": "Math Analysis",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "B or better in Algebra 2 with teacher recommendation",
 			"uc": "c"
 		},
 		{
 			"name": "Pre-Calculus Honors",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "B or better in Algebra 2/Trigonometry or Math Analysis",
 			"uc": "c"
 		},
 		{
 			"name": "Applied Math", 
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Successful completion of Algebra 2 or Algebra 2/Trig with teacher recommendation",
 			"uc": "c"
 		},
 		{
 			"name": "AP Calculus AB",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "B or better in Math Analysis or C or better in Pre-Calculus with teacher recommendation",
 			"uc": "c"
 		},
 		{
 			"name": "AP Calculus BC",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "B or better in Pre-Calculus H with teacher recommendation",
 			"uc": "c"
 		},
 		{
 			"name": "AP Statistics",
 			"subject": "Math",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "C or better in Algebra 2",
 			"uc": "c"
 		}
@@ -214,77 +214,77 @@
 		{
 			"name": "Biology",
 			"subject": "Science",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None", 
 			"uc": "d"
 		},
 		{
 			"name": "AP Biology",
 			"subject": "Science",
-			"grades": "11-12",
+			"grades": [11,12],
 			"rec": "Biology and Chemistry", 
 			"uc": "d"
 		},
 		{
 			"name": "Chemistry",
 			"subject": "Science",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Biology and Algebra 1", 
 			"uc": "d"
 		},
 		{
 			"name": "Chemistry Honors",
 			"subject": "Science",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Biology and Geometry", 
 			"uc": "d"
 		},
 		{
 			"name": "AP Chemistry",
 			"subject": "Science",
-			"grades": "11-12",
+			"grades": [11,12],
 			"rec": "Algebra 2 and Chemistry", 
 			"uc": "d"
 		},
 		{
 			"name": "Physics",
 			"subject": "Science",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Biology and Algebra 1", 
 			"uc": "d"
 		},
 		{
 			"name": "Physics Honors",
 			"subject": "Science",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Biology and Algebra 2", 
 			"uc": "d"
 		},
 		{
 			"name": "AP Physics C: Mechanics",
 			"subject": "Science",
-			"grades": "11-12",
+			"grades": [11,12],
 			"rec": "Pre-Calculus Honors and Physics Honors", 
 			"uc": "d"
 		},
 		{
 			"name": "Physiology",
 			"subject": "Science",
-			"grades": "11-12",
+			"grades": [11,12],
 			"rec": "Biology and Chemistry", 
 			"uc": "d"
 		},
 		{
 			"name": "Environmental Science",
 			"subject": "Science",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Biology", 
 			"uc": "g"
 		},
 		{
 			"name": "AP Environmental Science",
 			"subject": "Science",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Biology, Chemistry, and Algebra 1", 
 			"uc": "d"
 		}
@@ -299,56 +299,56 @@
 		{
 			"name": "PE 9",
 			"subject": "PE",
-			"grades": "9",
+			"grades": [9],
 			"rec": "None",
 			"uc": "N/A"
 		},
 		{
 			"name": "PE 10-12",
 			"subject": "PE",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "PE 9", 
 			"uc": "N/A"
 		},
 		{
 			"name": "PE Dance",
 			"subject": "PE",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "PE 9", 
 			"uc": "N/A"
 		},
 		{
 			"name": "PE Total Fitness",
 			"subject": "PE",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "PE 9", 
 			"uc": "N/A"
 		},
 		{
 			"name": "PE Weight Training",
 			"subject": "PE",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "PE 9", 
 			"uc": "N/A"
 		},
 		{
 			"name": "PE 9 Band",
 			"subject": "PE",
-			"grades": "9",
+			"grades": [9],
 			"rec": "Approval of Music and PE Department heads", 
 			"uc": "N/A"
 		},
 		{
 			"name": "PE 10 Band",
 			"subject": "PE",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Approval of Music and PE Department heads", 
 			"uc": "N/A"
 		},
 		{
 			"name": "PE Sport",
 			"subject": "PE",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "None", 
 			"uc": "N/A"
 		}
@@ -363,140 +363,140 @@
 		{
 			"name": "Spanish 1",
 			"subject": "World Language",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None",
 			"uc": "e"
 		},
 		{
 			"name": "Spanish 2",
 			"subject": "World Language",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "C or better in Level 1 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "Spanish 3",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 2 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "Spanish 4 Honors",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 3 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "AP Spanish Language & Culture",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 4 Honors or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "French 1",
 			"subject": "World Language",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None",
 			"uc": "e"
 		},
 		{
 			"name": "French 2",
 			"subject": "World Language",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "C or better in Level 1 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "French 3",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 2 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "French 4 Honors",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 3 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "AP French Language & Culture",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 4 Honors or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "Chinese 1",
 			"subject": "World Language",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None",
 			"uc": "e"
 		},
 		{
 			"name": "Chinese 2",
 			"subject": "World Language",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "C or better in Level 1 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "Chinese 3",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 2 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "Chinese 4 Honors",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 3 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "AP Chinese Language & Culture",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 4 Honors or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "Japanese 1",
 			"subject": "World Language",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None",
 			"uc": "e"
 		},
 		{
 			"name": "Japanese 2",
 			"subject": "World Language",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "C or better in Level 1 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "Japanese 3",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 2 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "Japanese 4 Honors",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 3 or the recommendation of an instructor",
 			"uc": "e"
 		},
 		{
 			"name": "AP Japanese Language & Culture",
 			"subject": "World Language",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Level 4 Honors or the recommendation of an instructor",
 			"uc": "e"
 		}
@@ -511,210 +511,210 @@
 		{
 			"name": "Art 1",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None",
 			"uc": "f"
 		},
 		{
 			"name": "Art 2",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Art 1",
 			"uc": "f"
 		},
 		{
 			"name": "Art 3",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Art 2",
 			"uc": "f"
 		},
 		{
 			"name": "Art 4",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Art 3",
 			"uc": "f"
 		},
 		{
 			"name": "Photography 1",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "None",
 			"uc": "f"
 		},
 		{
 			"name": "Multimedia Design",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "None",
 			"uc": "f"
 		},
 		{
 			"name": "3D Design 1",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None",
 			"uc": "f"
 		},
 		{
 			"name": "3D Design 2",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in 3D Design 1",
 			"uc": "f"
 		},
 		{
 			"name": "3D Design 3",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in 3D Design 2",
 			"uc": "f"
 		},
 		{
 			"name": "3D Design 4",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in 3D Design 3",
 			"uc": "f"
 		},
 		{
 			"name": "Ceramics 1",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None",
 			"uc": "f"
 		},
 		{
 			"name": "Cermaics 2",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Ceramics 1",
 			"uc": "f"
 		},
 		{
 			"name": "Ceramics 3",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Ceramics 2",
 			"uc": "f"
 		},
 		{
 			"name": "Ceramics 4",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "C or better in Ceramics",
 			"uc": "f"
 		},
 		{
 			"name": "AP Studio Art: Drawing",
 			"subject": "Fine Art",
-			"grades": "12",
+			"grades": [12],
 			"rec": "B or better in Art 2, teacher recommendation or evaluation of student portfolio.",
 			"uc": "f"
 		},
 		{
 			"name": "B Choir",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "none",
 			"uc": "f"
 		},
 		{
 			"name": "Advanced Treble Choir",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Audition or approval of instructor",
 			"uc": "f"
 		},
 		{
 			"name": "A Choir",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Audition or approval of instructor",
 			"uc": "f"
 		},
 		{
 			"name": "Small Mixed Vocal Ensembles",
 			"subject": "Fine Art",
-			"grades": "11-12",
+			"grades": [11,12],
 			"rec": "Audition or approval of instructor",
 			"uc": "f"
 		},
 		{
 			"name": "Concert Band",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Approval of instructor",
 			"uc": "f"
 		},
 		{
 			"name": "Symphonic Band",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Audition or approval of instructor",
 			"uc": "f"
 		},
 		{
 			"name": "Wind Ensemble",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Audition or approval of instructor",
 			"uc": "f"
 		},
 		{
 			"name": "Jazz Ensemble",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Audition or approval of instructor",
 			"uc": "f"
 		},
 		{
 			"name": "Orchestra",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Audition or approval of instructor",
 			"uc": "f"
 		},
 		{
 			"name": "Chamber Orchestra",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Audition or approval of instructor",
 			"uc": "f"
 		},
 		{
 			"name": "Music Genesis",
 			"subject": "Fine Art",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "none",
 			"uc": "f"
 		},
 		{
 			"name": "AP Music Theory",
 			"subject": "Fine Art",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Ability to read music",
 			"uc": "f"
 		},
 		{
 			"name": "Drama",
 			"subject": "Fine Art",
-			"gradies": "9-12",
+			"gradies": [9,10,11,12],
 			"rec": "none",
 			"uc": "f"
 		},
 		{
 			"name": "Advanced Drama",
 			"subject": "Fine Art",
-			"gradies": "10-12",
+			"gradies": [10,11,12],
 			"rec": "Drama",
 			"uc": "f"
 		},
 		{
 			"name": "Advanced Drama Honors",
 			"subject": "Fine Art",
-			"gradies": "10-12",
+			"gradies": [10,11,12],
 			"rec": "Advanced Drama",
 			"uc": "f"
 		}
@@ -729,126 +729,126 @@
 		{
 			"name": "Principles of Business",
 			"subject": "Applied Academic",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None",
 			"uc": "N/A"
 		},
 		{
 			"name": "International Business",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Principles of Business",
 			"uc": "g"
 		},
 		{
 			"name": "Computer Applications",
 			"subject": "Applied Academic",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "None",
 			"uc": "N/A"
 		},
 		{
 			"name": "Accounting 1",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "None",
 			"uc": "g"
 		},
 		{
 			"name": "Accounting 2",
 			"subject": "Applied Academic",
-			"grades": "11-12",
+			"grades": [11,12],
 			"rec": "Accounting 1",
 			"uc": "N/A"
 		},
 		{
 			"name": "Law",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "none",
 			"uc": "g"
 		},
 		{
 			"name": "Economics and Virtual Enterprise",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "[none stated]",
 			"uc": "g"
 		},
 		{
 			"name": "Journalism",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Successful completion of Writing for Publication and/or teacher recommendation",
 			"uc": "g"
 		},
 		{
 			"name": "Technical Writing (Yearbook)",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "[none stated]",
 			"uc": "N/A"
 		},
 		{
 			"name": "TV/Film/Video",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "[none stated]",
 			"uc": "N/A"
 		},
 		{
 			"name": "Culinary Food Science",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Passing grade in Biology and Algebra 1",
 			"uc": "g"
 		},
 		{
 			"name": "Computer Programming Java",
 			"subject": "Applied Academic",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "Successful completion of Algebra 1 or higher math course and previous computer use with teacher recommendation",
 			"uc": "g"
 		},
 		{
 			"name": "AP Computer Science A",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "B or better in Computer Programming Java; and B or better in Algebra 2 or higher math course; and strong computer and problem solving skills; with teacher recommendation",
 			"uc": "g"
 		},
 		{
 			"name": "Automotive Technology 1",
 			"subject": "Applied Academic",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "[none stated]",
 			"uc": "N/A"
 		},
 		{
 			"name": "Automotive Technology 2",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "[none stated]",
 			"uc": "N/A"
 		},
 		{
 			"name": "Culinary Careers",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "Intro to Culinary Careers: Foods and Nutrition",
 			"uc": "N/A"
 		},
 		{
 			"name": "Stagecraft Tech",
 			"subject": "Applied Academic",
-			"grades": "9-12",
+			"grades": [9,10,11,12],
 			"rec": "[none stated]",
 			"uc": "N/A"
 		},
 		{
 			"name": "Administration of Justice",
 			"subject": "Applied Academic",
-			"grades": "10-12",
+			"grades": [10,11,12],
 			"rec": "[none stated]",
 			"uc": "N/A"
 		}

@@ -51,6 +51,7 @@ $(function() {
 				subjectCourses.each(function(course) {
 					item = $('<li class="courseItem">'+course.get('name')+'</li>');
 					item.data('subject',subject.get('subject'));
+					item.data('grades',course.get('grades'));
 					$(subjectCourseList).append(item);
 				},this);
 				$(this.el).append(subjectCourseList);
@@ -70,7 +71,7 @@ $(function() {
 			this.render();
 		},
 		events: {
-			'drop td': 'incrementNumbers',
+			'drop .dragOver': 'incrementNumbers',
 			'click .x': 'decrementNumbers',
 		},
 		incrementNumbers: function(e) {
@@ -108,10 +109,7 @@ $(function() {
 			cell = e.currentTarget.parentNode;
 			$(cell).removeClass('filled');
 			$(cell).addClass('empty');
-			$(cell).html($(cell).data('subject'));
-		},
-		markDroppable: function() {
-
+			$(cell).html('<div>'+$(cell).data('subject')+'</div>');
 		},
 		render: function() {
 			rowInd = 0;
@@ -125,6 +123,7 @@ $(function() {
 				for(i=0;i<4;i++) {
 					cell = $('<td class="empty"><div>'+subject.get('subject')+'</div></td>');
 					cell.data('subject',subject.get('subject'));
+					cell.data('grade',i+9);
 					cell.data('row',rowInd);
 					if(i>needed || i==0 && subject.get('subject')=="Social Science") {
 						cell.addClass('unneeded');
@@ -156,27 +155,28 @@ $(function() {
 
 	$('[draggable]').bind('dragstart', function(e) {
 		beingDragged = this;
+		$('td').filter(function() {
+			return $(this).data('subject')==$(beingDragged).data('subject')
+				   && $(beingDragged).data('grades').indexOf($(this).data('grade'))>-1;
+		}).addClass('dragOver');
 	}).bind('dragend', function(e) {
-		if($(this).data('subject') == $(dropTarget).data('subject')) {
-			$(dropTarget).html('<span class="x"></span>'+$(this).html());
+		if($(dropTarget).hasClass('dragOver')) {
+			$(dropTarget).html('<i class="fa fa-times x"></i>'+'<div>'+$(this).html()+'</div>');
 			$(dropTarget).removeClass('empty');
 			$(dropTarget).removeClass('dragOver');
 			$(dropTarget).addClass('filled');
 		}
+		$('td').filter(function() {
+			return $(this).data('subject')==$(beingDragged).data('subject');
+		}).removeClass('dragOver');
 	});
 
-	$('.empty').bind('dragover', function(e) {
+	$('td').bind('dragover', function(e) {
 		e.preventDefault ? e.preventDefault() : e.returnValue = false; 
 		dropTarget = this;
-		if($(this).data('subject') == $(beingDragged).data('subject'))
-			$(this).addClass('dragOver');
 	}).bind('dragenter', function(e) {
 		e.preventDefault ? e.preventDefault() : e.returnValue = false; 
 		dropTarget = this;
-		if($(this).data('subject') == $(beingDragged).data('subject'))
-			$(this).addClass('dragOver');
-	}).bind('dragleave', function(e) {
-		$(this). removeClass('dragOver');
 	});
 
 });
