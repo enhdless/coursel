@@ -76,8 +76,12 @@ $(function() {
 		},
 		incrementNumbers: function(e) {
 			if($(e.currentTarget).attr('class').split(" ")[0]!='filled' && 
-				$(e.currentTarget).attr('class').split(" ")[1]!='filled' &&
-				$(e.currentTarget).data('subject')==$(beingDragged).data('subject')) {
+			   $(e.currentTarget).attr('class').split(" ")[1]!='filled' &&
+			   $(e.currentTarget).data('subject')==$(beingDragged).data('subject')) {
+				$(e.currentTarget).html('<i class="fa fa-times x"></i>'+'<div>'+$(beingDragged).html()+'</div>');
+				$(e.currentTarget).removeClass('empty');
+				$(e.currentTarget).removeClass('dragOver');
+				$(e.currentTarget).addClass('filled');
 				creditsCell = '.credits-' + $(e.currentTarget).data('row');
 				yearsCell = '.years-' + $(e.currentTarget).data('row');
 				$(creditsCell).data('creditsSoFar',$(creditsCell).data('creditsSoFar')+10);
@@ -160,16 +164,10 @@ $(function() {
 				   && $(beingDragged).data('grades').indexOf($(this).data('grade'))>-1;
 		}).addClass('dragOver');
 	}).bind('dragend', function(e) {
-		if($(dropTarget).hasClass('dragOver')) {
-			$(dropTarget).html('<i class="fa fa-times x"></i>'+'<div>'+$(this).html()+'</div>');
-			$(dropTarget).removeClass('empty');
-			$(dropTarget).removeClass('dragOver');
-			$(dropTarget).addClass('filled');
-		}
 		$('td').filter(function() {
 			return $(this).data('subject')==$(beingDragged).data('subject');
 		}).removeClass('dragOver');
-	});
+	})
 
 	$('td').bind('dragover', function(e) {
 		e.preventDefault ? e.preventDefault() : e.returnValue = false; 
