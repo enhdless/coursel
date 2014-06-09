@@ -47,7 +47,7 @@ $(function() {
 				$(this.el).append('<li class="subject"><i class="fa fa-caret-right"></i>'+subject.get('subject')+'</li>');
 				subjectCourses = new CourseList();
 				subjectCourses.add(subject.get('courses'));
-				subjectCourseList = $('<ul class="course-list courses-'+ind+'"></ul>');
+				subjectCourseList = $('<ul class="subject-course-list courses-'+ind+'"></ul>');
 				subjectCourses.each(function(course) {
 					item = $('<li class="courseItem">'+course.get('name')+'</li>');
 					item.data('subject',subject.get('subject'));
@@ -66,24 +66,31 @@ $(function() {
 
 	var CourseTable = Backbone.View.extend({
 		el: $('.course-table'),
+		dropTarget: null,
 		initialize: function() {
 			_.bindAll(this,'render');
 			this.render();
 		},
 		events: {
+			'dragover td': 'setDropTarget',
+			'dragenter td': 'setDropTarget',
 			'drop .dragOver': 'incrementNumbers',
 			'click .x': 'decrementNumbers',
 		},
+		setDropTarget: function(e) {
+			e.preventDefault ? e.preventDefault() : e.returnValue = false;
+			this.dropTarget = e.currentTarget;
+		},
 		incrementNumbers: function(e) {
-			if($(e.currentTarget).attr('class').split(" ")[0]!='filled' && 
-			   $(e.currentTarget).attr('class').split(" ")[1]!='filled' &&
-			   $(e.currentTarget).data('subject')==$(beingDragged).data('subject')) {
-				$(e.currentTarget).html('<i class="fa fa-times x"></i>'+'<div>'+$(beingDragged).html()+'</div>');
-				$(e.currentTarget).removeClass('empty');
-				$(e.currentTarget).removeClass('dragOver');
-				$(e.currentTarget).addClass('filled');
-				creditsCell = '.credits-' + $(e.currentTarget).data('row');
-				yearsCell = '.years-' + $(e.currentTarget).data('row');
+			if($(this.dropTarget).attr('class').split(" ")[0]!='filled' && 
+			   $(this.dropTarget).attr('class').split(" ")[1]!='filled' &&
+			   $(this.dropTarget).data('subject')==$(beingDragged).data('subject')) {
+				$(this.dropTarget).html('<i class="fa fa-times x"></i>'+'<div>'+$(beingDragged).html()+'</div>');
+				$(this.dropTarget).removeClass('empty');
+				$(this.dropTarget).removeClass('dragOver');
+				$(this.dropTarget).addClass('filled');
+				creditsCell = '.credits-' + $(this.dropTarget).data('row');
+				yearsCell = '.years-' + $(this.dropTarget).data('row');
 				$(creditsCell).data('creditsSoFar',$(creditsCell).data('creditsSoFar')+10);
 				$(yearsCell).data('yearsSoFar',$(yearsCell).data('yearsSoFar')+1);
 				this.updateNumbers(creditsCell,yearsCell);
@@ -110,7 +117,7 @@ $(function() {
 				$(yearsCell).removeClass('good');
 		},
 		removeCourse: function(e) {
-			cell = e.currentTarget.parentNode;
+			cell = this.dropTarget;
 			$(cell).removeClass('filled');
 			$(cell).addClass('empty');
 			$(cell).html('<div>'+$(cell).data('subject')+'</div>');
@@ -155,7 +162,6 @@ $(function() {
 	// binded events need to be moved to CourseTable View events
 
 	var beingDragged;
-	var dropTarget;
 
 	$('[draggable]').bind('dragstart', function(e) {
 		beingDragged = this;
@@ -168,13 +174,5 @@ $(function() {
 			return $(this).data('subject')==$(beingDragged).data('subject');
 		}).removeClass('dragOver');
 	})
-
-	$('td').bind('dragover', function(e) {
-		e.preventDefault ? e.preventDefault() : e.returnValue = false; 
-		dropTarget = this;
-	}).bind('dragenter', function(e) {
-		e.preventDefault ? e.preventDefault() : e.returnValue = false; 
-		dropTarget = this;
-	});
 
 });
