@@ -117,7 +117,7 @@ $(function() {
 				$(yearsCell).removeClass('good');
 		},
 		removeCourse: function(e) {
-			cell = this.dropTarget;
+			cell = e.currentTarget.parentNode;
 			$(cell).removeClass('filled');
 			$(cell).addClass('empty');
 			$(cell).html('<div>'+$(cell).data('subject')+'</div>');
