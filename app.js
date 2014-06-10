@@ -102,7 +102,7 @@ $(function() {
 		decrementNumbers: function(e) {
 			creditsCell = '.credits-' + $(e.currentTarget.parentNode).data('row');
 			yearsCell = '.years-' + $(e.currentTarget.parentNode).data('row');
-			totalClassesCell = '.total-classes-'+$(this.dropTarget).data('grade');
+			totalClassesCell = '.total-classes-'+$(e.currentTarget.parentNode).data('grade');
 			$(creditsCell).data('creditsSoFar',$(creditsCell).data('creditsSoFar')-10);
 			$(yearsCell).data('yearsSoFar',$(yearsCell).data('yearsSoFar')-1);
 			$('.total-credits').data('credits',$('.total-credits').data('credits')-10);
