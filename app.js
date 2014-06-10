@@ -121,8 +121,8 @@ $(function() {
 				$(yearsCell).addClass('good');
 			else
 				$(yearsCell).removeClass('good');
-			$(totalClassesCell).html($(totalClassesCell).data('classes')+' / 7 classes');
-			$('.total-credits').html($('.total-credits').data('credits')+' / 220');
+			$(totalClassesCell).html('<div>'+$(totalClassesCell).data('classes')+' / 7 classes</div>');
+			$('.total-credits').html('<div>'+$('.total-credits').data('credits')+' / 220</div>');
 			if($('.total-credits').data('credits') >= 220)
 				$('.total-credits').addClass('good');
 			else
@@ -153,12 +153,12 @@ $(function() {
 					}
 					row.append(cell);
 				}
-				cCell = $('<td class="credits-'+rowInd+'"></td>');
+				cCell = $('<td class="credits-'+rowInd+' credits"></td>');
 				cCell.data('creditsSoFar',0)
 				cCell.data('creditsNeeded',subject.get('credits'));
 				cCell.html(cCell.data('creditsSoFar')+' / '+cCell.data('creditsNeeded'));
 				row.append(cCell);
-				rCell = $('<td class="years-'+rowInd+'">0 / '+subject.get('years')+'</td>');
+				rCell = $('<td class="years-'+rowInd+' years">0 / '+subject.get('years')+'</td>');
 				rCell.data('yearsSoFar',0);
 				rCell.data('yearsNeeded',subject.get('years'));
 				rCell.html(rCell.data('yearsSoFar')+' / '+rCell.data('yearsNeeded'));
@@ -168,11 +168,11 @@ $(function() {
 			},this);
 			totalRow = $('<tr></tr>');
 			for(i=0;i<4;i++) {
-				cell = $('<td class="total-classes-'+(i+9)+'">0 / 7 classes</td>');
+				cell = $('<td class="total-classes-'+(i+9)+'"><div>0 / 7 classes</div></td>');
 				cell.data('classes',0);
 				totalRow.append(cell);
 			}
-			totalCredits = $('<td class="total-credits">0 / 220</td>');
+			totalCredits = $('<td class="total-credits"><div>0 / 220</div></td>');
 			totalCredits.data('credits',0);
 			totalRow.append(totalCredits);
 			$(this.el).append(totalRow);
@@ -187,6 +187,7 @@ $(function() {
 
 	$('[draggable]').bind('dragstart', function(e) {
 		beingDragged = this;
+		e.originalEvent.dataTransfer.setData('text/plain', '');
 		$('td').filter(function() {
 			return $(this).data('subject')==$(beingDragged).data('subject')
 				   && $(beingDragged).data('grades').indexOf($(this).data('grade'))>-1;
