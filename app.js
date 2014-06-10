@@ -91,20 +91,26 @@ $(function() {
 				$(this.dropTarget).addClass('filled');
 				creditsCell = '.credits-' + $(this.dropTarget).data('row');
 				yearsCell = '.years-' + $(this.dropTarget).data('row');
+				totalClassesCell = '.total-classes-'+$(this.dropTarget).data('grade');
 				$(creditsCell).data('creditsSoFar',$(creditsCell).data('creditsSoFar')+10);
 				$(yearsCell).data('yearsSoFar',$(yearsCell).data('yearsSoFar')+1);
-				this.updateNumbers(creditsCell,yearsCell);
+				$('.total-credits').data('credits',$('.total-credits').data('credits')+10);
+				$(totalClassesCell).data('classes',$(totalClassesCell).data('classes')+1);
+				this.updateNumbers(creditsCell,yearsCell,totalClassesCell);
 			}
 		},
 		decrementNumbers: function(e) {
 			creditsCell = '.credits-' + $(e.currentTarget.parentNode).data('row');
 			yearsCell = '.years-' + $(e.currentTarget.parentNode).data('row');
+			totalClassesCell = '.total-classes-'+$(this.dropTarget).data('grade');
 			$(creditsCell).data('creditsSoFar',$(creditsCell).data('creditsSoFar')-10);
 			$(yearsCell).data('yearsSoFar',$(yearsCell).data('yearsSoFar')-1);
-			this.updateNumbers(creditsCell,yearsCell);
+			$('.total-credits').data('credits',$('.total-credits').data('credits')-10);
+			$(totalClassesCell).data('classes',$(totalClassesCell).data('classes')-1);
+			this.updateNumbers(creditsCell,yearsCell,totalClassesCell);
 			this.removeCourse(e);
 		},
-		updateNumbers: function(creditsCell,yearsCell) {
+		updateNumbers: function(creditsCell,yearsCell,totalClassesCell) {
 			$(creditsCell).html($(creditsCell).data('creditsSoFar')+' / '+$(creditsCell).data('creditsNeeded'));
 			if($(creditsCell).data('creditsSoFar') >= $(creditsCell).data('creditsNeeded'))
 				$(creditsCell).addClass('good');
@@ -115,6 +121,12 @@ $(function() {
 				$(yearsCell).addClass('good');
 			else
 				$(yearsCell).removeClass('good');
+			$(totalClassesCell).html($(totalClassesCell).data('classes')+' / 7 classes');
+			$('.total-credits').html($('.total-credits').data('credits')+' / 220');
+			if($('.total-credits').data('credits') >= 220)
+				$('.total-credits').addClass('good');
+			else
+				$('.total-classes').removeClass('good');
 		},
 		removeCourse: function(e) {
 			cell = e.currentTarget.parentNode;
@@ -154,6 +166,16 @@ $(function() {
 				$(this.el).append(row);
 				rowInd++;
 			},this);
+			totalRow = $('<tr></tr>');
+			for(i=0;i<4;i++) {
+				cell = $('<td class="total-classes-'+(i+9)+'">0 / 7 classes</td>');
+				cell.data('classes',0);
+				totalRow.append(cell);
+			}
+			totalCredits = $('<td class="total-credits">0 / 220</td>');
+			totalCredits.data('credits',0);
+			totalRow.append(totalCredits);
+			$(this.el).append(totalRow);
 		}
 	});
 
