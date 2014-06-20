@@ -13,3 +13,4 @@ Add the functionality to:
 - save course plans with/without an account
 - view other students' course plans
 - automatically find similar course plans of other students
+- implement scheduling exceptions, for example, PE Sport only counts for 5 credits instead of 10.
