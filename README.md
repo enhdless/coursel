@@ -1,12 +1,12 @@
 # Coursel
-###[http://enhdless.github.io/coursel](http://enhdless.github.io/coursel)
-An application for students to plan what courses they want to take throughout high school. It is currently tailored specifically for Homestead High School.
+### [http://heidid.github.io/coursel](http://heidid.github.io/coursel)
+An application for students to plan what courses they want to take throughout high school. It is currently tailored specifically for Homestead High School, 2014.
 
-###Features
+### Features
 - Automatically counts credits
 - Easy drag-and-drop interface
 
-###Todo
+### Todo
 Add the functionality to:
 - export to a Google Spreadsheet or Excel document
 - clear a row, column, or whole table
